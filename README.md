@@ -11,6 +11,7 @@ This repo contains a collection of scripts to automate various tasks related to 
   - [Scripts](#scripts)
     - [General scripts](#general-scripts)
   - [How to use it](#how-to-use-it)
+    - [Examples](#examples)
   - [Status](#status)
   - [Contributing](#contributing)
   - [License](#license)
@@ -46,9 +47,23 @@ Here is a list of the scripts available in this repository.
 
 ### General scripts
 
+1. [git-pre-merge](./general/git-pre-merge)
+
+   The `git-pre-merge` script automatically generates a description for new merge requests based on the commits made from the `develop` branch to the current branch. This script can save time and ensure consistency in the descriptions of your merge requests.
+
+   For usage details, please refer to the [git-pre-merge README](./general/git-pre-merge/README.md).
+
 ## How to use it
 
 To use these scripts, simply clone this repository to your local machine and run the desired script in your terminal within your Git repository folder structure.
+
+### Examples
+
+For instance:
+
+```bash
+./git-pre-merge
+```
 
 ## Status
 
