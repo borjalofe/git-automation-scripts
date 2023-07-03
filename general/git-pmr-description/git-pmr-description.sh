@@ -1,6 +1,6 @@
 #!/bin/bash
 
-usage="git-pmr-description version 1.0.0
+usage="git-pmr-description 1.0.0
 Usage: git-pmr-description [{-h | --help}]
 
 git-pmr-description is a script to generate correctly a new pull / merge request's description

@@ -52,7 +52,7 @@ alias git-pmr-description="path/to/git-automation-scripts/general/git-pmr-descri
 Then, you can run `git-pmr-description` in your terminal within your Git repository folder structure with various options:
 
 ```bash
-git-pmr-description
+git-pmr-description 1.0.0
 Usage: git-pmr-description [{-h | --help}]
 
 git-pmr-description is a script to generate correctly a new pull / merge request's description
@@ -155,7 +155,7 @@ On a branch named `feat/my-new-awesome-feature` with four commits, the script wi
 
 ## Status
 
-This project is currently in development. The current version is `1.0.0`.
+This script is currently in development. The current version is `1.0.0`.
 
 ## Contact
 
