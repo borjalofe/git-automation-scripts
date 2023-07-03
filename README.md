@@ -50,6 +50,10 @@ Here is a list of the scripts available in this repository.
 
    The script `git-pmr-description` is a script that automatically generates a description for a Pull/Merge Request based on the commits in the branch.
 
+1. [git-branch](./general/git-branch)
+
+   The script `git-branch` is a script that automatically creates a branch with the name provided as argument and pushes it to the remote repository.
+
 ## How to use it
 
 To use these scripts, simply clone this repository to your local machine and run the desired script in your terminal within your Git repository folder structure.
