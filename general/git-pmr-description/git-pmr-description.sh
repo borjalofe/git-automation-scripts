@@ -1,9 +1,9 @@
 #!/bin/bash
 
-usage="git-pre-merge
-Usage: git-pre-merge [{-h | --help}]
+usage="git-pmr-description version 1.0.0
+Usage: git-pmr-description [{-h | --help}]
 
-git-pre-merge is a script to generate correctly a new mrege request's description
+git-pmr-description is a script to generate correctly a new pull / merge request's description
 
 where:
 	-h, --help                    shows this help text
