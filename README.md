@@ -1,74 +1,54 @@
-# Git Automation Scripts
+# Technical Egoism Toolkit
 
-This repo contains a collection of scripts to automate various tasks related to working with Git repos. These scripts aim to improve efficiency and streamline the development workflow.
+This repository is home to a collection of utility scripts designed to automate repetitive tasks commonly faced in a development team. The objective is to free up developers' time, allowing them to focus on more complex problems, thereby enhancing overall productivity.
 
 ## Table of Contents
 
-- [Git Automation Scripts](#git-automation-scripts)
+- [Technical Egoism Toolkit](#technical-egoism-toolkit)
   - [Table of Contents](#table-of-contents)
   - [Intro](#intro)
+  - [Prerequisites](#prerequisites)
   - [Technologies](#technologies)
   - [Scripts](#scripts)
-    - [General scripts](#general-scripts)
   - [How to use it](#how-to-use-it)
   - [Status](#status)
-  - [Contributing](#contributing)
+  - [Contributions](#contributions)
   - [License](#license)
   - [Contact](#contact)
 
 ## Intro
 
-As developer I've always missing some more time to do a better job, to enforce better practices, or ensure I follow the standards as strictly as possible.
+Time is often the most constrained resource in a development environment. The pressure to deliver can lead to skimping on best practices and proper documentation. This toolkit serves as a solution to such issues by automating trivial but necessary tasks. It aims to be a continuously growing resource, regularly updated to cover a wider range of use-cases.
 
-Since I finished my studies, the more work I do, the more I realize real environments have time and resources constraints as a rule. And if anything unexpected happens, those constraints grow to a point where we must decide which best practice are we going to miss.
+## Prerequisites
 
-I've created this repo to keep all the automations I' coming up with so I can use them as base of my dev workflow thus enabling me to have time enough to do my best as my normal work and try to still hit it when the unexpected comes to say hi.
-
-My aim when creating this repo is trying to add more scripts to cover more use cases.
+The scripts in this toolkit are intended to be run in a Bash environment. They have been tested on both Ubuntu and Windows Subsystem for Linux (WSL).
 
 ## Technologies
 
-These Git Automation Scripts are created with:
+The Technical Egoism Toolkit is built with the following technologies:
 
-- Shellscript
+- Shell Scripting
 
-- Git specific packages -like `glab` for GitLab-
+- Technology-specific CLI tools
 
 ## Scripts
 
-The scripts are divided in:
+The scripts are grouped by technology and the sensible categories per each technology:
 
-- General category: scripts you can use in any git repo
-
-- [REPO] category: scripts you can use in a [REPO]'s instance (e.g. GitHub, GitLab, ...)
-
-Here is a list of the scripts available in this repository.
-
-### General scripts
-
-1. [git-branch](./general/git-branch)
-
-   The script `git-branch` is a script that automatically creates a branch with the name provided as argument and pushes it to the remote repository.
-
-1. [git-clean](./general/git-clean)
-
-   The script `git-clean` is a script that automatically removes all finished branches in the local repo.
-
-1. [git-pmr-description](./general/git-pmr-description)
-
-   The script `git-pmr-description` is a script that automatically generates a description for a Pull/Merge Request based on the commits in the branch.
+- [Git-Specific Automation Scripts](./git)
 
 ## How to use it
 
-To use these scripts, simply clone this repository to your local machine and run the desired script in your terminal within your Git repository folder structure.
+To use the scripts in this toolkit, clone the repository onto your local machine. Navigate to the directory of the desired script and execute it from your terminal.
 
 ## Status
 
-This project is currently being developed.
+This is an ongoing project, and contributions to enhance its capabilities are most welcome.
 
-## Contributing
+## Contributions
 
-We welcome contributions to this repository! If you have a script you'd like to add or an improvement to an existing script, please open a pull request.
+Contributions to expand this toolkit are very much appreciated. Feel free to fork this repository and open a pull request if you have a script you'd like to add or if you have improvements to suggest for existing scripts.
 
 ## License
 
@@ -77,3 +57,7 @@ These scripts are released under the [GPL v3.0 License](./LICENSE).
 ## Contact
 
 Created by [@borjalofe](https://github.com/borjalofe) - feel free to contact me!
+
+---
+
+Note: For specific example use-cases and troubleshooting steps or FAQ, please refer to the README.md file within each script's directory.
