@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<quicktext version="2">
+	<filetype>scripts</filetype>
+	<script>
+		<name><![CDATA[CheckData]]></name>
+		<body><![CDATA[this.mWindow.alert(JSON.stringify(await this.mQuicktext.process_from()));]]></body>
+	</script>
+</quicktext>
