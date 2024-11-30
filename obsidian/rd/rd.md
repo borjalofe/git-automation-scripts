@@ -4,14 +4,14 @@
 * Setup variables
 */
 const rdBasePath = "01 - PROJECTS/RDs";
-const defaultDrivers = "David Sánchez, Samuel Punzón, Paula Ten";
-const defaultApprover = "José Luis Cases";
-const defaultContributors = "David Sánchez, Samuel Punzón, Paula Ten";
+const defaultDrivers = "Menganito, Fulanito";
+const defaultApprover = "Zutanito";
+const defaultContributors = "Menganito, Fulanito";
 const defaultInterested = "";
 const buyerProfiles = [
     "All",
     "Inner Client",
-    "Ruby",
+    "Outer Client",
 ];
 /** End of Setup */
 
